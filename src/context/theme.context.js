@@ -13,6 +13,8 @@ function ThemeProviderWrapper(props) {
     };
   }  
 
+  // This is a HOC and must not render HTML per se. 
+  // It only returns its children with added functionality
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {props.children}

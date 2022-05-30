@@ -26,4 +26,3 @@ function ThemeProviderWrapper(props) {
 }
 
 export { RoleContext, RoleProviderWrapper };
-
